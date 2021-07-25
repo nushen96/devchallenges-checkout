@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  body {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    height: auto;
+  }
+
+  .page-content {
+    flex-direction: column-reverse;
+  }
+
+  .items-container {
+    width: 100%;
+  }
+
+  .item-element {
+    gap: 8px;
+  }
+
+  .item-info {
+    flex: 1;
+    padding: 0 3rem;
+  }
+
+  .item-element .item-image-container {
+    flex: 0;
+  }
+
+  .page-footer {
+    position: relative;
+    top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 12px;
+    font-size: 14px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .subform:first-child {
+    margin-top: 24px;
+  }
+
+  .item-info {
+    padding: 0 1rem;
+  }
+}
