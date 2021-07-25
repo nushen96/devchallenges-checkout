@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Checkout</h1>
+      <div class="page-content">
+        <div class="form-container">
+          <form action="">
+            <div class="subform">
+              <h2 class="subform-title">Contact information</h2>
+              <div class="form-item">
+                <label for="">Email</label>
+                <div class="input-container">
+                  <span class="material-icons md-24">email</span>
+                  <input type="text" placeholder="Enter your email..." />
+                </div>
+              </div>
+              <div class="form-item">
+                <label for="">Phone</label>
+                <div class="input-container">
+                  <span class="material-icons md-24">phone</span>
+                  <input type="text" placeholder="Enter your phone..." />
+                </div>
+              </div>
+            </div>
+            <div class="subform">
+              <h2 class="subform-title">Shipping address</h2>
+              <div class="form-item">
+                <label for="">Full name</label>
+                <div class="input-container">
+                  <span class="material-icons md-24">person</span>
+                  <input type="text" placeholder="Your full name..." />
+                </div>
+              </div>
+              <div class="form-item">
+                <label for="">Address</label>
+                <div class="input-container">
+                  <span class="material-icons md-24">place</span>
+                  <input type="text" placeholder="Your address..." />
+                </div>
+              </div>
+              <div class="form-item">
+                <label for="">City</label>
+                <div class="input-container">
+                  <span class="material-icons md-24">location_city</span>
+                  <input type="text" placeholder="Your city..." />
+                </div>
+              </div>
+              <div class="inline-inputs-container">
+                <div class="form-item inline-form-item">
+                    <label for="">Country</label>
+                    <div class="input-container select-container">
+                      <span class="material-icons md-24">public</span>
+                      <select required name="" id="">
+                        <option value="" disabled selected hidden>
+                          Your country...
+                        </option>
+                        <option value="SN">Senegal</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-item inline-form-item">
+                    <label for="">Postal Code</label>
+                    <div class="input-container">
+                      <span class="material-icons md-24">markunread_mailbox</span>
+                      <input type="text" placeholder="Your postal code..." />
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" />
+              <label for="">Save this information for next time</label>
+            </div>
+            <div class="submit-button-container">
+              <input class="submit-button" type="submit" value="Continue" />
+            </div>
+          </form>
+        </div>
+        <div class="items-container">
+          <div class="purchased-items">
+            <div class="item-element">
+              <div class="item-image-container">
+                <img
+                  class="item-image"
+                  src="resources/images/vintage-backbag.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="item-info">
+                <h3 class="item-title">Vintage Backlog</h3>
+                <div class="item-prices">
+                  <span class="item-new-price">$54.99</span>
+                  <span class="item-old-price">$94.99</span>
+                </div>
+                <div class="flex-spacer"></div>
+                <div class="item-number-selector">
+                  <button>-</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+            <div class="item-element">
+              <div class="item-image-container">
+                <img
+                  class="item-image"
+                  src="resources/images/levi-shoes.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item-info">
+                <h3 class="item-title">Levi Shoes</h3>
+                <div class="item-prices">
+                  <span class="item-new-price">$74.99</span>
+                  <span class="item-old-price">$124.99</span>
+                </div>
+                <div class="flex-spacer"></div>
+                <div class="item-number-selector">
+                  <button>-</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calculated-amounts">
+            <div class="amount-container">
+              <span class="amount-label">Shipping</span>
+              <span class="amount-value">$19</span>
+            </div>
+            <div class="amount-container">
+              <span class="amount-label">Total</span>
+              <span class="amount-value">$148.98</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer"><p>Made with savageness by Papi Diagne</p></div>
+    </div>
+  </body>
+</html>
